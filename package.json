@@ -1,0 +1,9 @@
+{
+  "name": "tuasesorinmobiliario",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Web estática de Tu Asesor Inmobiliario con formulario por SMTP (Vercel Serverless Functions)",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
