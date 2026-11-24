@@ -17,10 +17,10 @@ h1{font-size:30px}
 /* ---------- Cabecera ---------- */
 #page-container{padding-top:44px;overflow-x:hidden;position:relative;transition:transform .5s ease}
 #main-header{
-  position:fixed;top:0;left:0;width:100%;height:54px;z-index:99999;
+  position:fixed;top:0;left:0;width:100%;height:44px;z-index:99999;
   background:#fff;box-shadow:0 0 7px rgba(0,0,0,.1);
 }
-#main-header .container{height:54px;display:flex;align-items:center;justify-content:flex-end}
+#main-header .container{width:100%;max-width:none;padding:0 30px;height:44px;display:flex;align-items:center;justify-content:flex-end}
 .menu-toggle{
   width:32px;height:32px;border:0;background:transparent;cursor:pointer;padding:0;
   display:flex;align-items:center;justify-content:center;color:#666;
@@ -35,7 +35,7 @@ h1{font-size:30px}
 }
 body.menu-open .slide-menu{right:0}
 .slide-menu .menu-close{
-  position:absolute;top:11px;right:30px;width:32px;height:32px;border:0;background:transparent;
+  position:absolute;top:6px;right:30px;width:32px;height:32px;border:0;background:transparent;
   color:#fff;cursor:pointer;padding:0;display:flex;align-items:center;justify-content:center;
 }
 .slide-menu .menu-close svg{width:20px;height:20px}
